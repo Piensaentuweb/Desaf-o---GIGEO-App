@@ -1,0 +1,18 @@
+
+.gallery{
+  padding: 1rem;
+
+&__title {
+  margin: 3rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+}
+
+
+@media (max-width: $breakpoint-desktop){
+  .gallery__title{
+    justify-content: center;
+    display: flex;
+  }
+}
